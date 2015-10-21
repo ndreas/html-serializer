@@ -1,0 +1,14 @@
+{
+  "name": "html-serializer",
+  "version": "0.1.0",
+  "description": "Library for serializing html to a self contained document",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "Andreas Johansson",
+  "license": "ISC"
+}
