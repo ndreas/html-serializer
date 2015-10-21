@@ -4,11 +4,16 @@
   "description": "Library for serializing html to a self contained document",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test mocha"
   },
   "keywords": [
     "html"
   ],
   "author": "Andreas Johansson",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.3"
+  }
 }
